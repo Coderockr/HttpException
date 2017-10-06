@@ -1,5 +1,5 @@
 <?php
-namespace Exception;
+namespace Coderockr\HttpException;
 
 abstract class Exception extends \Exception
 {
@@ -10,7 +10,7 @@ abstract class Exception extends \Exception
     public function __construct($description = null, \Exception $previous = null)
     {
         if (!$description) {
-            $description = $message;
+            $description = $this->message;
         }
         $this->description = $description;
     }

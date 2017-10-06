@@ -6,8 +6,8 @@
   "license": "MIT",
   "keywords": ["php", "exceptions", "http"],
   "autoload": {
-    "psr-0": {
-      "HttpException\\": "src/"
+    "psr-4": {
+      "Coderockr\\HttpException\\": "src/"
     }
   }
 }
