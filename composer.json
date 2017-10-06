@@ -9,5 +9,5 @@
     "psr-0": {
       "HttpException\\": "src/"
     }
-  },
+  }
 }
