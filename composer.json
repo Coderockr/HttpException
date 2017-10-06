@@ -1,0 +1,13 @@
+{
+  "name": "coderockr/HttpException",
+  "description": "Http Exceptions",
+  "homepage": "https://github.com/coderockr/HttpException",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["php", "exceptions", "http"],
+  "autoload": {
+    "psr-0": {
+      "HttpException\\": "src/"
+    }
+  },
+}
