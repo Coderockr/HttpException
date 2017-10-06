@@ -1,5 +1,5 @@
 {
-  "name": "coderockr/HttpException",
+  "name": "coderockr/http-exceptions",
   "description": "Http Exceptions",
   "homepage": "https://github.com/coderockr/HttpException",
   "type": "library",
