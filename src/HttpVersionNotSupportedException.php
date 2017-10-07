@@ -1,5 +1,5 @@
 <?php
-namespace Exception;
+namespace Coderockr\HttpException;
 
 /**
  * 505 HTTP Version Not Supported

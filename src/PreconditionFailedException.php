@@ -1,5 +1,5 @@
 <?php
-namespace Exception;
+namespace Coderockr\HttpException;
 
 /**
  * 412 Precondition Failed

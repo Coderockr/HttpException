@@ -1,5 +1,5 @@
 <?php
-namespace Exception;
+namespace Coderockr\HttpException;
 
 /**
  * 414 Request-URI Too Long

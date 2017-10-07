@@ -1,5 +1,5 @@
 <?php
-namespace Exception;
+namespace Coderockr\HttpException;
 
 /**
  * Parent class for 5xx server error exceptions.

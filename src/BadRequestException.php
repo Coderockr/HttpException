@@ -1,5 +1,5 @@
 <?php
-namespace Exception;
+namespace Coderockr\HttpException;
 
 /**
  * 400 Bad Request
