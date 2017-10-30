@@ -16,7 +16,7 @@ Examples:
 
  * When you access the URL `/v1/message/box?status=unread` the user wants a list of messages with the status "unread". If no message is found, than the exception should not be thrown; instead return the  status code 204.
 
- * When the user tries to create a resource and a related content is not found (like the category of a product) than should be thrown a [UnprocessableEntityException](#unprocessable-entity-422-)
+ * When the user tries to create a resource and a related content is not found (like the category of a product) than should be thrown a [UnprocessableEntityException](#unprocessable-entity-422)
 Exemplo: Ao tentar incluir uma nova mensagem, se uma das informações que fazem parte da mensagem não puder ser salva (uma tabela relacionada por exemplo) deve retornar 422
 
 Unprocessable Entity (422)
